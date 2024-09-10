@@ -1,7 +1,6 @@
-import deviceOperations from "../APIS/deviceOperations.js";
-import deviceInfo from "../APIS/deviceInfo.js";
-import {startPaymentKeepAlive} from '../APIS/utils.js';
-import utility from "../APIS/utility.js";
+import deviceOperations from "./deviceOperations.js";
+import deviceInfo from "./deviceInfo.js";
+import {startPaymentKeepAlive} from './utils.js';
 
 const credenziali = {
     username: process.env.CASHMATIC_USERNAME,

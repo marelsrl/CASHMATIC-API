@@ -1,4 +1,4 @@
-import {downloadReport} from '../CASHMATIC_API/utils.js';
+import {downloadReport} from './utils.js';
 
 const token = "...";
 
