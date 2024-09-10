@@ -11,7 +11,7 @@ const REBOOT_ENDPOINT = process.env.CASHMATIC_REBOOT_ENDPOINT;
 const REPORT_ENDPOINT = process.env.CASMATIC_REPORT_ENDPOINT;
 
 
-class Utility extends Base {
+class CashmaticUtility extends Base {
     constructor(agent, DEFAULT_REASON, DEFAULT_REFERENCE, PORT, PROTOCOL, SERVER_IP, HOST) {
         super(agent, DEFAULT_REASON, DEFAULT_REFERENCE, PORT, PROTOCOL, SERVER_IP, HOST)
     }
@@ -114,4 +114,4 @@ class Utility extends Base {
 // const token = await user.data.token;
 
 
-export default new Utility();
+export default new CashmaticUtility();
