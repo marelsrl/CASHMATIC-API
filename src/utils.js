@@ -1,6 +1,6 @@
 import deviceOperations from "./deviceOperations.js";
 import deviceInfo from "./deviceInfo.js";
-import utility from "./utility.js";
+import utility from "./deviceUtility.js";
 import fs from 'fs';
 import path from "path";
 
